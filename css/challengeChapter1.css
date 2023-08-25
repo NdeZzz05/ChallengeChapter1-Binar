@@ -1,0 +1,583 @@
+:root {
+  --button-green: #5cb85f;
+  --primary-dark-blue: #0d28a6;
+  --bg-based: #f1f3ff;
+}
+body {
+  overflow-x: hidden;
+}
+.text-justify {
+  text-align: justify;
+}
+
+.jumbotron-background-color {
+  background-color: #f1f3ff;
+  color: black;
+}
+
+.text-normal-weight {
+  font-weight: normal;
+}
+
+/* Ini Style Navbar */
+.navbar {
+  background-color: #f1f3ff;
+}
+.navbar-brand {
+  width: 100px;
+  height: 30px;
+  flex-shrink: 0;
+  background: var(--primary-dark-blue-04, #0d28a6);
+}
+
+/* Ini akhir Style Navbar */
+
+/* Ini Style Blok Head */
+.blokUtama {
+  width: 100%;
+  height: 70vh;
+  background-color: #f1f3ff;
+  display: flex;
+  /* margin-top: 3rem; */
+}
+.blokUtama .blokUtamaKiri {
+  /* background-color: #0d28a6; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 2rem;
+  padding: 2rem 2rem 2rem 6rem;
+  line-height: 1.2rem;
+}
+.blokUtama .blokUtamaKanan {
+  /* background-color: red; */
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.blokUtama .blokUtamaKiri h1 {
+  /* line-height: 3rem; */
+  margin-bottom: 2rem;
+}
+
+.blokUtama .blokUtamaKiri button {
+  background: var(--button-green);
+  color: white;
+  padding: 0.5rem 1rem;
+  border: 0px;
+  border-radius: 2%;
+}
+/* Ini Akhir dari blok Head*/
+
+/* Ini Awal Style Blok Best Car */
+.blokBestCar {
+  padding-top: 5rem !important;
+}
+/* Ini Akhir Style Blok Best Car */
+
+/* Ini Awal dari style Why Us */
+
+#whyUs {
+  padding-top: 3rem !important;
+}
+.blokWhyUs {
+  /* margin: 4rem 0rem 0rem 0rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blokWhyUs .blokWhyUsUtama {
+  width: 1168px;
+  /* height: 326px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* Ini Akhir dari style Why Us */
+
+/* Ini awal style carousel */
+#testimonial {
+  padding-top: 5rem !important;
+}
+
+.main-carousel {
+  margin-top: 0rem;
+}
+.carousel-inner2 {
+  /* max-height: 20px; */
+  /* border: 1px solid #ddd; */
+  margin-top: 2rem;
+  display: flex;
+  overflow: hidden !important;
+  justify-content: center;
+}
+.main-carousel .carouselText {
+  text-align: center;
+}
+.main-carousel .carousel-item2 {
+  min-width: 619px;
+  height: 270px;
+  /* line-height: 110px; */
+  background-color: #f1f3ff;
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* text-align: center; */
+  border-radius: 10px;
+  /* gap: 1rem; */
+}
+.main-carousel .carouselIcon {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.main-carousel .carousel-inner2 .carousel-item2 .carouselFoto {
+  /* background-color: hotpink; */
+  margin: 3rem;
+}
+.main-carousel .carousel-inner2 .carousel-item2 .carouselText {
+  /* background-color: greenyellow; */
+  text-align: start;
+  margin-right: 2rem;
+  font: 14px;
+  line-height: 1.1rem;
+}
+.main-carousel .carouselTombol {
+  /* background-color: coral; */
+  margin-top: 1rem;
+  height: 30px;
+  text-align: center;
+}
+/* Ini akhir style Carousel */
+
+/* Ini awal dari block Sewa */
+.blockSewa {
+  margin: 4rem 3rem 3rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blockSewa .blockBiru {
+  background-color: var(--primary-dark-blue);
+  border-radius: 10px;
+  width: 1168px;
+  height: 326px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blockSewa .blockBiru .blockText {
+  text-align: center;
+  line-height: 3rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blockSewa .blockBiru .blockText p {
+  width: 600px;
+  text-align: center;
+  font-size: 14px;
+  color: #ddd;
+  font-size: small;
+  text-align-last: center;
+  line-height: 1rem;
+}
+
+.blockSewa .blockBiru .blockText button {
+  background: var(--button-green);
+  color: white;
+  /* padding: -1rem; */
+  border: 0px;
+  border-radius: 2%;
+  margin-top: 1rem;
+}
+/* Ini Akhir style dari block Sewa */
+
+/* Ini Awal style dari block Question */
+#FAQ {
+  padding-top: 6rem !important;
+}
+
+.blockQuestion {
+  margin: 2rem 3rem 6rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blockQuestion .blockPutih {
+  /* background-color: #ddd; */
+  border-radius: 10px;
+  width: 1168px;
+  height: 400px;
+  display: flex;
+  /* justify-content: center;
+        align-items: center; */
+  gap: 1rem;
+}
+.blockQuestion .blockPutih .blockText {
+  /* background: #5cb85f; */
+  width: 42%;
+}
+.blockQuestion .blockPutih .blockDropDown {
+  /* background: rebeccapurple; */
+  width: 58%;
+  display: flex;
+}
+.btnGroup {
+  width: 100%;
+  text-align: center;
+  height: 50px;
+}
+.blockDalam {
+  width: 100%;
+}
+/* Ini Akhir style dari block Question */
+
+/* Ini Awal Style dari block Footer */
+.footer {
+  margin: 6rem 3rem 0rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .blockFooter {
+  background-color: #fff;
+  width: 1168px;
+  height: 256px;
+  display: flex;
+  gap: 9rem;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.footer .blockFooter .alamatFooter {
+  width: 268px;
+}
+.footer .blockFooter .menuFooter {
+  display: flex;
+  flex-direction: column;
+}
+.footer .blockFooter .menuFooter a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+.footer .blockFooter .copyrightFooter div {
+  width: 100px;
+  height: 34px;
+  flex-shrink: 0;
+  background: var(--primary-dark-blue-04, #0d28a6);
+}
+/* INi Akhir dari block Footer */
+
+/* Responsive Mobile Phone */
+@media (max-width: 576px) {
+  /* Ini Awal Style Navbar */
+  .sidebar {
+    background-color: white;
+    width: 50vw !important;
+  }
+
+  /* Ini AKhir Style Navbar */
+
+  /* Ini Awal Style blok Head*/
+  .blokUtama {
+    /* background-color: #f1f3ff; */
+    /* background-color: #5cb85f; */
+    height: 100vh;
+    padding-top: 2rem !important;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .blokUtama .blokUtamaKiri {
+    /* background-color: red; */
+    width: 100vw;
+    height: 55vh;
+    padding: 0rem 2rem 0rem 0rem;
+    margin-bottom: 1.5rem;
+  }
+  .blokUtama .blokUtamaKiri h1 {
+    font-size: 42px;
+    line-height: 3.5rem;
+    /* word-spacing: 2rem; */
+  }
+
+  .blokUtama .blokUtamaKanan {
+    /* background-color: blue; */
+    width: 100vw;
+    height: 40vh;
+  }
+  .blokUtama .blokUtamaKanan img {
+    /* background-color: blue; */
+    width: 100vw;
+    height: 40vh;
+    background-size: cover;
+  }
+
+  /* Ini Akhir Style Blok Head */
+
+  /* Ini Awal Style Blok Best Car */
+  .blokBestCar {
+    /* background-color: #5cb85f; */
+    margin-top: 1.5rem;
+    padding: 4rem 0rem 0rem 0rem !important;
+  }
+
+  .blokBestCar .blokBestFoto {
+    /* background-color: red; */
+    padding: 0rem 2rem 2rem 4rem !important;
+  }
+  .blokBestCar .blokBestKata {
+    /* background-color: aqua; */
+    padding: 0rem 2rem 0rem 0rem !important;
+    /* margin: 0rem 2rem 0rem 2rem !important; */
+  }
+  .blokBestKata .blokKataDalam {
+    margin-left: 2rem !important;
+  }
+  .blokBestKata .blokKataDalam h1 {
+    margin: 1rem 0rem 1.5rem 0rem !important;
+  }
+  .blokBestKata .blokKataDalam p {
+    margin-bottom: 1rem !important;
+  }
+
+  /* Ini Akhir Style Blok Best Car */
+
+  /* InI Awal Style Blok Why Us*/
+  .blokWhyUs {
+    /* margin: 4rem 0rem 0rem 0rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #5cb85f; */
+  }
+  .blokWhyUs .blokWhyUsUtama {
+    /* background-color: #0d28a6; */
+    /* width: 1168px; */
+    /* height: 326px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 2rem;
+    gap: 1.5rem;
+  }
+  /* Ini Akhir Style Blok Why Us */
+
+  /* Ini Awal Style Carousel Testi */
+  .main-carousel {
+    margin-top: 0rem;
+  }
+  .carousel-inner2 {
+    /* max-height: 20px; */
+    /* border: 1px solid #ddd; */
+    margin-top: 2rem;
+    display: flex;
+    overflow: hidden !important;
+    justify-content: center;
+  }
+  .main-carousel .carouselText {
+    text-align: center;
+  }
+  .main-carousel .carousel-item2 {
+    min-width: 90vw;
+    height: 380px;
+    /* line-height: 110px; */
+    background-color: #f1f3ff;
+    margin: 0 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    /* gap: 1rem; */
+  }
+  .main-carousel .carouselIcon {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .main-carousel .carousel-inner2 .carousel-item2 .carouselFoto {
+    /* background-color: hotpink; */
+    margin: 1rem;
+  }
+  .main-carousel .carousel-inner2 .carousel-item2 .carouselText {
+    /* background-color: greenyellow; */
+    text-align: start;
+    margin: 0rem 2rem 0rem 2rem;
+    font: 14px;
+    line-height: 1.1rem;
+  }
+  .main-carousel .carousel-inner2 .carousel-item2 .carouselText span {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0rem 1rem 0rem;
+  }
+  /* Ini Akhir Style Carousel Testi */
+
+  /* Ini Awal Style Block Sewa */
+  .blockSewa {
+    /* background-color: #5cb85f; */
+    margin: 0rem;
+    /* height: 500px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+
+  .blockSewa .blockBiru {
+    margin-top: 4rem !important;
+    background-color: var(--primary-dark-blue);
+    border-radius: 10px;
+    width: 348px;
+    height: 373px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .blockSewa .blockBiru .blockText {
+    /* background-color: aquamarine; */
+    /* border: 10px solid black; */
+    width: 80%;
+    text-align: center;
+    line-height: 3rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .blockSewa .blockBiru .blockText p {
+    /* border: 1px solid black; */
+    width: 200px !important;
+    text-align: center;
+    font-size: 14px;
+    color: #ddd;
+    font-size: small;
+    text-align-last: center;
+    line-height: 1rem;
+  }
+
+  .blockSewa .blockBiru .blockText button {
+    background: var(--button-green);
+    color: white;
+    /* padding: -1rem; */
+    border: 0px;
+    border-radius: 2%;
+    margin-top: 1rem;
+  }
+  /* Ini Akhir Style Block Sewa */
+
+  /* Ini Awal Style FAQ / Question */
+
+  #FAQ {
+    padding-top: 6rem !important;
+    padding-bottom: 2rem;
+  }
+
+  .blockQuestion {
+    margin: 1rem 1rem 6rem 1rem !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: red; */
+  }
+  .blockQuestion .blockPutih {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    width: 368px;
+    height: 400px;
+    /* justify-content: center;
+          align-items: center; */
+    gap: 0rem;
+  }
+
+  .blockQuestion .blockPutih .blockText {
+    /* background-color: chartreuse; */
+    width: 82%;
+    text-align: center;
+    margin: 2rem 2rem 0rem 2rem;
+  }
+  .blockQuestion .blockPutih .blockDropDown {
+    /* background-color: coral; */
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0rem 3rem 0rem 1rem;
+    padding: 0rem 3rem 0rem 1rem; */
+  }
+  .blockDalam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .accordion {
+    margin: 0rem 2rem 0rem 1rem;
+  }
+  .accordion .accordion-item {
+    margin-bottom: 0.5rem;
+  }
+  /* Ini Akhir Style FAQ / Question */
+
+  /* Ini Awal Style Footer */
+  .footer {
+    /* background-color: chocolate; */
+    display: flex;
+    height: 500px;
+    margin: 0 !important;
+    padding: 0 !important;
+    align-items: start;
+  }
+  .footer .blockFooter {
+    /* background-color: #5cb85f; */
+    /* height: 800px; */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 0rem;
+    margin: 0rem 1.5rem;
+  }
+  .footer .blockFooter .sosmedFooter {
+    margin-bottom: 1rem;
+  }
+  .footer .blockFooter .sosmedFooter a {
+    margin-right: 0.8rem;
+  }
+  /* Ini Akhir Style Footer */
+}
+
+@media (max-width: 360px) {
+  .accordion {
+    margin: 0rem 1rem 0rem 1rem;
+  }
+  .blokUtama {
+    padding-top: 4rem !important;
+  }
+  .blokBestCar {
+    margin-top: 1.5rem;
+    padding: 8rem 0rem 0rem 0rem !important;
+  }
+  .blokUtama .blokUtamaKanan {
+    margin-top: 2rem !important;
+  }
+}
