@@ -285,6 +285,10 @@ body {
 
 /* Responsive Mobile Phone */
 @media (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
+
   /* Ini Awal Style Navbar */
   .sidebar {
     background-color: white;
@@ -567,6 +571,10 @@ body {
 }
 
 @media (max-width: 360px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .accordion {
     margin: 0rem 1rem 0rem 1rem;
   }
