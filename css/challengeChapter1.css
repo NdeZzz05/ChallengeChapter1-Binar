@@ -286,7 +286,7 @@ body {
 /* Responsive Mobile Phone */
 @media (max-width: 576px) {
   body {
-    overflow-x: hidden;
+    overflow: hidden;
   }
 
   /* Ini Awal Style Navbar */
@@ -572,7 +572,7 @@ body {
 
 @media (max-width: 360px) {
   body {
-    overflow-x: hidden;
+    overflow: hidden;
   }
 
   .accordion {
